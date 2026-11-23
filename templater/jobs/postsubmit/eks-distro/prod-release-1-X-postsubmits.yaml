@@ -18,6 +18,8 @@ envVars:
   value: "{{ .releaseBranch }}"
 - name: IMAGE_REPO
   value: public.ecr.aws/eks-distro
+- name: PRIVATE_IMAGE_REPO
+  value: 379412251201.dkr.ecr.us-east-1.amazonaws.com
 resources:
   requests:
     cpu: "4"
